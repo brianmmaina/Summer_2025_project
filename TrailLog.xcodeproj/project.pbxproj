@@ -6,6 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		681034BF2DE2030F004ECCA4 /* TrailLogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681034BE2DE2030F004ECCA4 /* TrailLogApp.swift */; };
+		681034C02DE20419004ECCA4 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681034B22DE1FF71004ECCA4 /* SplashView.swift */; };
+		681034C12DE2043A004ECCA4 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681034B32DE1FF79004ECCA4 /* LoginView.swift */; };
+		681034C22DE2043A004ECCA4 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681034B52DE1FF87004ECCA4 /* ForgotPasswordView.swift */; };
+		681034C32DE2043A004ECCA4 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681034B42DE1FF7F004ECCA4 /* SignUpView.swift */; };
+		681034C42DE20446004ECCA4 /* PhotoEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681034BB2DE1FFCB004ECCA4 /* PhotoEntry.swift */; };
+		681034C52DE20446004ECCA4 /* VoiceNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681034BC2DE1FFD6004ECCA4 /* VoiceNote.swift */; };
+		681034C62DE20446004ECCA4 /* TextEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681034BA2DE1FFBF004ECCA4 /* TextEntry.swift */; };
+		681034C72DE20446004ECCA4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681034B72DE1FFA5004ECCA4 /* HomeView.swift */; };
+		681034C82DE20446004ECCA4 /* TrailRecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681034B82DE1FFAD004ECCA4 /* TrailRecordingView.swift */; };
+		681034C92DE20446004ECCA4 /* EntrySelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681034B92DE1FFB6004ECCA4 /* EntrySelectorView.swift */; };
+		681034CA2DE20446004ECCA4 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681034BD2DE1FFDE004ECCA4 /* Library.swift */; };
+		681034CB2DE20464004ECCA4 /* TrailDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681034982DE1FE2F004ECCA4 /* TrailDetailsView.swift */; };
+		681034CC2DE20469004ECCA4 /* ExplorePageview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6810349A2DE1FE2F004ECCA4 /* ExplorePageview.swift */; };
+		681034CD2DE20471004ECCA4 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681034A62DE1FE2F004ECCA4 /* SettingView.swift */; };
+		681034CE2DE20471004ECCA4 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681034A52DE1FE2F004ECCA4 /* ProfileView.swift */; };
+		681034CF2DE20471004ECCA4 /* EditProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681034A42DE1FE2F004ECCA4 /* EditProfile.swift */; };
+		681034D52DE2090A004ECCA4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 681034D42DE2090A004ECCA4 /* Info.plist */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		686BEB4F2DE1EE25007C314D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,7 +45,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6810343E2DE1F9C1004ECCA4 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		681034982DE1FE2F004ECCA4 /* TrailDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailDetailsView.swift; sourceTree = "<group>"; };
+		6810349A2DE1FE2F004ECCA4 /* ExplorePageview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorePageview.swift; sourceTree = "<group>"; };
+		681034A42DE1FE2F004ECCA4 /* EditProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfile.swift; sourceTree = "<group>"; };
+		681034A52DE1FE2F004ECCA4 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		681034A62DE1FE2F004ECCA4 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		681034AB2DE1FE3B004ECCA4 /* TrailLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailLog.swift; sourceTree = "<group>"; };
+		681034AD2DE1FE98004ECCA4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		681034B22DE1FF71004ECCA4 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		681034B32DE1FF79004ECCA4 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		681034B42DE1FF7F004ECCA4 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		681034B52DE1FF87004ECCA4 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		681034B72DE1FFA5004ECCA4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		681034B82DE1FFAD004ECCA4 /* TrailRecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailRecordingView.swift; sourceTree = "<group>"; };
+		681034B92DE1FFB6004ECCA4 /* EntrySelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntrySelectorView.swift; sourceTree = "<group>"; };
+		681034BA2DE1FFBF004ECCA4 /* TextEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEntry.swift; sourceTree = "<group>"; };
+		681034BB2DE1FFCB004ECCA4 /* PhotoEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoEntry.swift; sourceTree = "<group>"; };
+		681034BC2DE1FFD6004ECCA4 /* VoiceNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceNote.swift; sourceTree = "<group>"; };
+		681034BD2DE1FFDE004ECCA4 /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		681034BE2DE2030F004ECCA4 /* TrailLogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailLogApp.swift; sourceTree = "<group>"; };
+		681034D42DE2090A004ECCA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		688EC66E2DE1F44300EC17EC /* TrailLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrailLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		688EC66F2DE1F44300EC17EC /* TrailLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrailLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		688EC6702DE1F44300EC17EC /* TrailLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrailLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,88 +108,107 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		686BEB342DE1EE22007C314D = {
+		681034992DE1FE2F004ECCA4 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
-				688EC6882DE1F91B00EC17EC /* View */,
-				688EC67D2DE1F59800EC17EC /* Extensions */,
-				688EC67C2DE1F58D00EC17EC /* Resources */,
-				688EC67B2DE1F58500EC17EC /* Models */,
-				686BEB512DE1EE25007C314D /* TrailLogTests */,
-				686BEB5B2DE1EE25007C314D /* TrailLogUITests */,
-				688EC66E2DE1F44300EC17EC /* TrailLog.app */,
-				688EC66F2DE1F44300EC17EC /* TrailLogTests.xctest */,
-				688EC6702DE1F44300EC17EC /* TrailLogUITests.xctest */,
+				681034982DE1FE2F004ECCA4 /* TrailDetailsView.swift */,
 			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
-		688EC67B2DE1F58500EC17EC /* Models */ = {
+		6810349B2DE1FE2F004ECCA4 /* Explore */ = {
 			isa = PBXGroup;
 			children = (
+				6810349A2DE1FE2F004ECCA4 /* ExplorePageview.swift */,
 			);
-			path = Models;
+			path = Explore;
 			sourceTree = "<group>";
 		};
-		688EC67C2DE1F58D00EC17EC /* Resources */ = {
+		681034A72DE1FE2F004ECCA4 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				681034A42DE1FE2F004ECCA4 /* EditProfile.swift */,
+				681034A52DE1FE2F004ECCA4 /* ProfileView.swift */,
+				681034A62DE1FE2F004ECCA4 /* SettingView.swift */,
 			);
-			path = Resources;
+			path = Profile;
 			sourceTree = "<group>";
 		};
-		688EC67D2DE1F59800EC17EC /* Extensions */ = {
+		681034A92DE1FE35004ECCA4 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		688EC6832DE1F91B00EC17EC /* Auth */ = {
+		681034AA2DE1FE38004ECCA4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				6810343E2DE1F9C1004ECCA4 /* SplashView.swift */,
 			);
-			path = Auth;
+			path = Resources;
 			sourceTree = "<group>";
 		};
-		688EC6842DE1F91B00EC17EC /* Detail */ = {
+		681034AC2DE1FE3B004ECCA4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				681034AD2DE1FE98004ECCA4 /* User.swift */,
+				681034AB2DE1FE3B004ECCA4 /* TrailLog.swift */,
 			);
-			path = Detail;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		688EC6852DE1F91B00EC17EC /* Explore */ = {
+		681034AE2DE1FEB3004ECCA4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				681034AF2DE1FF2D004ECCA4 /* Auths */,
+				681034B02DE1FF4C004ECCA4 /* Mains */,
+				681034992DE1FE2F004ECCA4 /* Detail */,
+				6810349B2DE1FE2F004ECCA4 /* Explore */,
+				681034A72DE1FE2F004ECCA4 /* Profile */,
 			);
-			path = Explore;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		688EC6862DE1F91B00EC17EC /* Main */ = {
+		681034AF2DE1FF2D004ECCA4 /* Auths */ = {
 			isa = PBXGroup;
 			children = (
+				681034B22DE1FF71004ECCA4 /* SplashView.swift */,
+				681034B32DE1FF79004ECCA4 /* LoginView.swift */,
+				681034B42DE1FF7F004ECCA4 /* SignUpView.swift */,
+				681034B52DE1FF87004ECCA4 /* ForgotPasswordView.swift */,
 			);
-			path = Main;
+			path = Auths;
 			sourceTree = "<group>";
 		};
-		688EC6872DE1F91B00EC17EC /* Profile */ = {
+		681034B02DE1FF4C004ECCA4 /* Mains */ = {
 			isa = PBXGroup;
 			children = (
+				681034B72DE1FFA5004ECCA4 /* HomeView.swift */,
+				681034B82DE1FFAD004ECCA4 /* TrailRecordingView.swift */,
+				681034B92DE1FFB6004ECCA4 /* EntrySelectorView.swift */,
+				681034BA2DE1FFBF004ECCA4 /* TextEntry.swift */,
+				681034BB2DE1FFCB004ECCA4 /* PhotoEntry.swift */,
+				681034BC2DE1FFD6004ECCA4 /* VoiceNote.swift */,
+				681034BD2DE1FFDE004ECCA4 /* Library.swift */,
 			);
-			path = Profile;
+			path = Mains;
 			sourceTree = "<group>";
 		};
-		688EC6882DE1F91B00EC17EC /* View */ = {
+		686BEB342DE1EE22007C314D = {
 			isa = PBXGroup;
 			children = (
-				688EC6832DE1F91B00EC17EC /* Auth */,
-				688EC6842DE1F91B00EC17EC /* Detail */,
-				688EC6852DE1F91B00EC17EC /* Explore */,
-				688EC6862DE1F91B00EC17EC /* Main */,
-				688EC6872DE1F91B00EC17EC /* Profile */,
+				681034D42DE2090A004ECCA4 /* Info.plist */,
+				681034BE2DE2030F004ECCA4 /* TrailLogApp.swift */,
+				681034AE2DE1FEB3004ECCA4 /* Views */,
+				681034A92DE1FE35004ECCA4 /* Extensions */,
+				681034AA2DE1FE38004ECCA4 /* Resources */,
+				681034AC2DE1FE3B004ECCA4 /* Models */,
+				686BEB512DE1EE25007C314D /* TrailLogTests */,
+				686BEB5B2DE1EE25007C314D /* TrailLogUITests */,
+				688EC66E2DE1F44300EC17EC /* TrailLog.app */,
+				688EC66F2DE1F44300EC17EC /* TrailLogTests.xctest */,
+				688EC6702DE1F44300EC17EC /* TrailLogUITests.xctest */,
 			);
-			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +291,7 @@
 				TargetAttributes = {
 					686BEB3C2DE1EE22007C314D = {
 						CreatedOnToolsVersion = 16.3;
+						LastSwiftMigration = 1630;
 					};
 					686BEB4D2DE1EE25007C314D = {
 						CreatedOnToolsVersion = 16.3;
@@ -269,6 +329,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				681034D52DE2090A004ECCA4 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +354,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				681034C12DE2043A004ECCA4 /* LoginView.swift in Sources */,
+				681034C42DE20446004ECCA4 /* PhotoEntry.swift in Sources */,
+				681034C52DE20446004ECCA4 /* VoiceNote.swift in Sources */,
+				681034C62DE20446004ECCA4 /* TextEntry.swift in Sources */,
+				681034C72DE20446004ECCA4 /* HomeView.swift in Sources */,
+				681034C82DE20446004ECCA4 /* TrailRecordingView.swift in Sources */,
+				681034C92DE20446004ECCA4 /* EntrySelectorView.swift in Sources */,
+				681034CC2DE20469004ECCA4 /* ExplorePageview.swift in Sources */,
+				681034CA2DE20446004ECCA4 /* Library.swift in Sources */,
+				681034C22DE2043A004ECCA4 /* ForgotPasswordView.swift in Sources */,
+				681034CD2DE20471004ECCA4 /* SettingView.swift in Sources */,
+				681034CE2DE20471004ECCA4 /* ProfileView.swift in Sources */,
+				681034CF2DE20471004ECCA4 /* EditProfile.swift in Sources */,
+				681034C32DE2043A004ECCA4 /* SignUpView.swift in Sources */,
+				681034BF2DE2030F004ECCA4 /* TrailLogApp.swift in Sources */,
+				681034CB2DE20464004ECCA4 /* TrailDetailsView.swift in Sources */,
+				681034C02DE20419004ECCA4 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,12 +409,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = TrailLog/TrailLog.entitlements;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TrailLog/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -358,6 +437,7 @@
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
 				XROS_DEPLOYMENT_TARGET = 2.4;
@@ -369,12 +449,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = TrailLog/TrailLog.entitlements;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TrailLog/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
