@@ -1,11 +1,11 @@
-# 🌲 Trail Log — Leave More Than Footsteps
+# Trail Log — Leave More Than Footsteps
 
 > **Trail Log** is my pocket-sized trail journal: a map-based diary that captures not just where you go, but what you think, see, and hear along the way.  
 > Walk. Drop a voice note. Snap a photo. Jot a thought. Revisit your journey anytime.
 
 ---
 
-## 🧭 Table of Contents
+## Table of Contents
 
 1. [Why Trail Log?](#why-trail-log)  
 2. [Core Features](#core-features)  
@@ -30,22 +30,22 @@ We love hiking but hate stopping to write things down. Trail Log lets you captur
 
 ## Core Features
 
-- 🗺 **Live GPS Tracking**  
+- **Live GPS Tracking**  
   - Real-time polyline drawing of your path  
   - Pause/resume so you can refuel or rest  
-- 📍 **Location-Pinned Entries**  
+-  **Location-Pinned Entries**  
   - Text notes, photos, or voice memos  
   - Each entry saved with lat/long & timestamp  
-- 📚 **Saved Trails Library**  
+-  **Saved Trails Library**  
   - Browse past journeys by date or name  
   - Quick stats: distance, duration, entry count  
-- 🧑‍🤝‍🧑 **Share With Friends**  
+-  **Share With Friends**  
   - Private by default—share individual trails or your whole library  
   - Simple link-based sharing (no accounts required to view)  
-- 🎨 **Minimal UI**  
+-  **Minimal UI**  
   - Distraction-free design—focus on walking & reflecting  
   - Dark mode & light mode support  
-- 📶 **Offline First (Coming Soon)**  
+-  **Offline First (Coming Soon)**  
   - Record when signal’s weak, sync when you’re back online  
 
 ---
