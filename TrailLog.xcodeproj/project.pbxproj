@@ -70,23 +70,16 @@
 		686BEB342DE1EE22007C314D = {
 			isa = PBXGroup;
 			children = (
+				688EC6882DE1F91B00EC17EC /* View */,
 				688EC67D2DE1F59800EC17EC /* Extensions */,
 				688EC67C2DE1F58D00EC17EC /* Resources */,
 				688EC67B2DE1F58500EC17EC /* Models */,
-				688EC67A2DE1F56D00EC17EC /* View */,
 				686BEB512DE1EE25007C314D /* TrailLogTests */,
 				686BEB5B2DE1EE25007C314D /* TrailLogUITests */,
 				688EC66E2DE1F44300EC17EC /* TrailLog.app */,
 				688EC66F2DE1F44300EC17EC /* TrailLogTests.xctest */,
 				688EC6702DE1F44300EC17EC /* TrailLogUITests.xctest */,
 			);
-			sourceTree = "<group>";
-		};
-		688EC67A2DE1F56D00EC17EC /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		688EC67B2DE1F58500EC17EC /* Models */ = {
@@ -108,6 +101,53 @@
 			children = (
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		688EC6832DE1F91B00EC17EC /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		688EC6842DE1F91B00EC17EC /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		688EC6852DE1F91B00EC17EC /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		688EC6862DE1F91B00EC17EC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		688EC6872DE1F91B00EC17EC /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		688EC6882DE1F91B00EC17EC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				688EC6832DE1F91B00EC17EC /* Auth */,
+				688EC6842DE1F91B00EC17EC /* Detail */,
+				688EC6852DE1F91B00EC17EC /* Explore */,
+				688EC6862DE1F91B00EC17EC /* Main */,
+				688EC6872DE1F91B00EC17EC /* Profile */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
