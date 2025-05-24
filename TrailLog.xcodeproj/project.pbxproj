@@ -24,30 +24,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		686BEB3D2DE1EE22007C314D /* TrailLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrailLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		686BEB4E2DE1EE25007C314D /* TrailLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrailLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		686BEB582DE1EE25007C314D /* TrailLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrailLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		688EC66E2DE1F44300EC17EC /* TrailLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrailLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		688EC66F2DE1F44300EC17EC /* TrailLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrailLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		688EC6702DE1F44300EC17EC /* TrailLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrailLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		686BEB602DE1EE25007C314D /* Exceptions for "TrailLog" folder in "TrailLog" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 686BEB3C2DE1EE22007C314D /* TrailLog */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		686BEB3F2DE1EE22007C314D /* TrailLog */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				686BEB602DE1EE25007C314D /* Exceptions for "TrailLog" folder in "TrailLog" target */,
-			);
-			path = TrailLog;
-			sourceTree = "<group>";
-		};
 		686BEB512DE1EE25007C314D /* TrailLogTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = TrailLogTests;
@@ -88,21 +70,36 @@
 		686BEB342DE1EE22007C314D = {
 			isa = PBXGroup;
 			children = (
-				686BEB3F2DE1EE22007C314D /* TrailLog */,
+				688EC6772DE1F49900EC17EC /* Extensions */,
+				688EC6782DE1F49900EC17EC /* Models */,
+				688EC6792DE1F49900EC17EC /* Resources */,
 				686BEB512DE1EE25007C314D /* TrailLogTests */,
 				686BEB5B2DE1EE25007C314D /* TrailLogUITests */,
-				686BEB3E2DE1EE22007C314D /* Products */,
+				688EC66E2DE1F44300EC17EC /* TrailLog.app */,
+				688EC66F2DE1F44300EC17EC /* TrailLogTests.xctest */,
+				688EC6702DE1F44300EC17EC /* TrailLogUITests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
-		686BEB3E2DE1EE22007C314D /* Products */ = {
+		688EC6772DE1F49900EC17EC /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				686BEB3D2DE1EE22007C314D /* TrailLog.app */,
-				686BEB4E2DE1EE25007C314D /* TrailLogTests.xctest */,
-				686BEB582DE1EE25007C314D /* TrailLogUITests.xctest */,
 			);
-			name = Products;
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		688EC6782DE1F49900EC17EC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		688EC6792DE1F49900EC17EC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,14 +117,11 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				686BEB3F2DE1EE22007C314D /* TrailLog */,
-			);
 			name = TrailLog;
 			packageProductDependencies = (
 			);
 			productName = TrailLog;
-			productReference = 686BEB3D2DE1EE22007C314D /* TrailLog.app */;
+			productReference = 688EC66E2DE1F44300EC17EC /* TrailLog.app */;
 			productType = "com.apple.product-type.application";
 		};
 		686BEB4D2DE1EE25007C314D /* TrailLogTests */ = {
@@ -150,7 +144,7 @@
 			packageProductDependencies = (
 			);
 			productName = TrailLogTests;
-			productReference = 686BEB4E2DE1EE25007C314D /* TrailLogTests.xctest */;
+			productReference = 688EC66F2DE1F44300EC17EC /* TrailLogTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		686BEB572DE1EE25007C314D /* TrailLogUITests */ = {
@@ -173,7 +167,7 @@
 			packageProductDependencies = (
 			);
 			productName = TrailLogUITests;
-			productReference = 686BEB582DE1EE25007C314D /* TrailLogUITests.xctest */;
+			productReference = 688EC6702DE1F44300EC17EC /* TrailLogUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -209,7 +203,7 @@
 			mainGroup = 686BEB342DE1EE22007C314D;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 686BEB3E2DE1EE22007C314D /* Products */;
+			productRefGroup = 686BEB342DE1EE22007C314D;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
