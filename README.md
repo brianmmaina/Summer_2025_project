@@ -31,22 +31,22 @@ We love hiking but hate stopping to write things down. Trail Log lets you captur
 ## Core Features
 
 - **Live GPS Tracking**  
-  - Real-time polyline drawing of your path  
-  - Pause/resume so you can refuel or rest  
+    - Real-time polyline drawing of your path  
+    - Pause/resume so you can refuel or rest  
 -  **Location-Pinned Entries**  
-  - Text notes, photos, or voice memos  
-  - Each entry saved with lat/long & timestamp  
+    - Text notes, photos, or voice memos  
+    - Each entry saved with lat/long & timestamp  
 -  **Saved Trails Library**  
-  - Browse past journeys by date or name  
-  - Quick stats: distance, duration, entry count  
+    - Browse past journeys by date or name  
+    - Quick stats: distance, duration, entry count  
 -  **Share With Friends**  
-  - Private by default—share individual trails or your whole library  
-  - Simple link-based sharing (no accounts required to view)  
+    - Private by default—share individual trails or your whole library  
+    - Simple link-based sharing (no accounts required to view)  
 -  **Minimal UI**  
-  - Distraction-free design—focus on walking & reflecting  
-  - Dark mode & light mode support  
+    - Distraction-free design—focus on walking & reflecting  
+    - Dark mode & light mode support  
 -  **Offline First (Coming Soon)**  
-  - Record when signal’s weak, sync when you’re back online  
+    - Record when signal’s weak, sync when you’re back online  
 
 ---
 
