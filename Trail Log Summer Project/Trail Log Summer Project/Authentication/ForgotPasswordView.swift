@@ -8,16 +8,15 @@ import SwiftUI
 
 struct ForgotPasswordView: View {
   var body: some View {
-    Text("🔑 Forgot Password Screen")
+    Text("Forgot Password Screen")
       .font(.title)
       .padding()
   }
 }
 
-#if DEBUG
+
 struct ForgotPasswordView_Previews: PreviewProvider {
   static var previews: some View {
     ForgotPasswordView()
   }
 }
-#endif

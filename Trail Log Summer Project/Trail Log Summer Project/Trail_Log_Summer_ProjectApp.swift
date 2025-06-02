@@ -11,11 +11,9 @@ import SwiftUI
 struct Trail_Log_Summer_ProjectApp: App {
   var body: some Scene {
     WindowGroup {
-      NavigationStack {
         SplashScreen()
       }
     }
   }
-}
 
 
